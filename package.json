@@ -1,0 +1,39 @@
+{
+  "name": "my-tinypng",
+  "version": "1.0.0",
+  "description": "Image compression CLI powered by TinyPNG API, supports global install and project integration",
+  "main": "index.js",
+  "bin": {
+    "tinypng": "./bin/tinypng.js"
+  },
+  "scripts": {
+    "test": "node bin/tinypng.js --help"
+  },
+  "keywords": [
+    "tinypng",
+    "image",
+    "compress",
+    "optimization",
+    "png",
+    "jpg",
+    "jpeg",
+    "webp",
+    "git",
+    "pre-commit"
+  ],
+  "author": "x",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rinwind/my-tinypng"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "index.js",
+    "README.md"
+  ]
+}
